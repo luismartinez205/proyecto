@@ -1,0 +1,79 @@
+.hero {
+  min-height: 100vh;
+  background-image: url('https://www.certus.edu.pe/blog/wp-content/uploads/2020/12/por-que-estudiar-diseno-grafico-razones-importantes-social.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-position: top center;
+}
+
+.cta-btn {
+  background: linear-gradient(45deg, #4300ff, #08ffdf);
+  border: none;
+  padding: 15px 35px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 20px rgba(255, 75, 43, 0.6);
+}
+
+.cta-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 35px rgb(105, 7, 225);
+}
+
+.hero img {
+  max-width: 100%;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.cont-img {
+  width: 173px;
+  height: auto;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.shown {
+  color: #4300ff !important;
+  font-weight: 300;
+}
+
+.nav-link {
+  color: rgb(1 202 255);
+}
+
+.custom-nav {
+  border-bottom: 2px solid #4300ff;
+  height: 74px;
+  opacity: 0.8;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+      display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9fafb;
+}
+
+.navbar-toggler {
+  color: rgb(105 51 255);
+}
