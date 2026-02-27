@@ -18,7 +18,7 @@
   font-weight: bold;
   border-radius: 50px;
   transition: 0.3s ease-in-out;
-  box-shadow: 0 0 20px rgba(255, 75, 43, 0.6);
+  box-shadow: 0 0 20px rgba(77, 11, 209, 0.6);
 }
 
 .cta-btn:hover {
@@ -74,6 +74,23 @@
     background-color: #f9fafb;
 }
 
-.navbar-toggler {
-  color: rgb(105 51 255);
-}
+  .card-custom {
+      border: 1px solid #ddd;
+      transition: 0.4s ease;
+      overflow: hidden;
+    }
+
+    .card-custom img {
+      height: 220px;
+      object-fit: cover;
+      transition: 0.4s ease;
+    }
+
+    .card-custom:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(120, 28, 232, 0.503);
+    }
+
+    .card-custom:hover img {
+      transform: scale(1.1);
+    }
